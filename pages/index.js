@@ -92,7 +92,7 @@ export default function Home() {
 						<Image src={phone} />
 						<h3>Accessible</h3>
 						<p>
-							Access MKFY from anywhere in the world with our easy to use app.
+							Access MKTFY from anywhere in the world with our easy to use app.
 							Need a power cable in Italy? We can help!
 						</p>
 					</div>
@@ -106,7 +106,7 @@ export default function Home() {
 						<Image src={honest} />
 						<h3>Honest</h3>
 						<p>
-							Safety and trust are core values of MKFY. All your transactions
+							Safety and trust are core values of MKTFY. All your transactions
 							are monitored for fairness and safety.
 						</p>
 					</div>

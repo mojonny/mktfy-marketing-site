@@ -83,21 +83,30 @@ export default function Layout({ children }) {
 					<div>
 						<div className={styles.linkList}>
 							<h3>Jump to:</h3>
+							<a href="/About/About">
+								<p className={utilStyles.headingMd}> About us </p>
+							</a>
 
-							<p className={utilStyles.headingMd}> About us </p>
 							<p className={utilStyles.headingMd}> MKTFY business </p>
 							<p className={utilStyles.headingMd}> Donate with MKTFY </p>
-							<p className={utilStyles.headingMd}> Blog </p>
+							<a href="/Blog/Blog">
+								<p className={utilStyles.headingMd}> Blog </p>
+							</a>
 						</div>
 					</div>
 					<div>
 						<div className={styles.linkList}>
 							<h3>Contact</h3>
 
-							<p className={utilStyles.headingMd} style={{ color: '#FFBA00' }}>
-								{' '}
-								Contact us{' '}
-							</p>
+							<a href="/Contact/Contact">
+								<p
+									className={utilStyles.headingMd}
+									style={{ color: '#FFBA00' }}
+								>
+									{' '}
+									Contact us{' '}
+								</p>
+							</a>
 							<p className={utilStyles.headingMd}> +1 888 345 6789 </p>
 							<p className={utilStyles.headingMd}>
 								{' '}
