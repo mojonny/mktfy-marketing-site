@@ -1,14 +1,14 @@
 import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
+
 import logo from '/public/images/Logo.jpg';
 import bg from '/public/images/Footer.jpg';
 import copyright from '/public/images/copyright.png';
 
 export const siteTitle = 'MKTFY Marketing Website';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
 	return (
 		<div className={styles.container}>
 			<header className={styles.header}>
