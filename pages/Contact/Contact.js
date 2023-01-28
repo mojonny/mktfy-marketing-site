@@ -1,11 +1,10 @@
-import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../../styles/Contact.module.css';
 import Layout from '../../components/layout';
 
 import sleepyCat from '/public/images/sleepyCat.png';
-import partners from '/public/images/Partners.png';
+
 import mapIcon from '/public/images/mapIcon.png';
 
 export default function Contact() {
