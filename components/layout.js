@@ -39,11 +39,7 @@ export default function Layout({ children, home }) {
 			</header>
 
 			<main>{children}</main>
-			{!home && (
-				<div className={styles.backToHome}>
-					<Link href="/">← Back to home</Link>
-				</div>
-			)}
+
 			<footer className={styles.footer}>
 				<div className={styles.textContainer}>
 					<div
@@ -100,36 +96,32 @@ export default function Layout({ children, home }) {
 								{' '}
 								Suite 9, 123 1st Street SW, Calgary, Alberta T2T 7F7{' '}
 							</p>
-							<p className={utilStyles.headingMd}> Blog </p>
 						</div>
 					</div>
 				</div>
+				<br />
 				<Image
 					priority
 					src={copyright}
 					height={30}
 					width={1135}
 					style={{
-						marginTop: '30px',
 						align: 'center',
 						position: 'relative',
 						zIndex: '1',
 					}}
 					alt=""
 				/>
-				<Image
+				{/* <Image
 					priority
 					src={background}
-					height={610}
+					height={650}
 					width={1920}
 					style={{
-						position: 'absolute',
-						left: '0',
-						bottom: '0',
-						right: '0',
+						zIndex: '-1',
 					}}
 					alt=""
-				/>
+				/> */}
 			</footer>
 		</div>
 	);

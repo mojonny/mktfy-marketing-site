@@ -20,11 +20,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-img {
-	max-width: 100%;
-	display: block;
-}
-
 p {
 	font-family: Open Sans;
 	font-style: Regular;
