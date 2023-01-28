@@ -3,7 +3,7 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import logo from '/public/images/Logo.jpg';
-import background from '/public/images/Footer.jpg';
+import bg from '/public/images/Footer.jpg';
 import copyright from '/public/images/copyright.png';
 
 export const siteTitle = 'MKTFY Marketing Website';
@@ -40,7 +40,14 @@ export default function Layout({ children, home }) {
 
 			<main>{children}</main>
 
-			<footer className={styles.footer}>
+			<footer
+				className={styles.footer}
+				style={{
+					backgroundImage: `url(${bg.src})`,
+					width: '100%',
+					height: '100%',
+				}}
+			>
 				<div className={styles.textContainer}>
 					<div
 						style={{
@@ -112,16 +119,6 @@ export default function Layout({ children, home }) {
 					}}
 					alt=""
 				/>
-				{/* <Image
-					priority
-					src={background}
-					height={650}
-					width={1920}
-					style={{
-						zIndex: '-1',
-					}}
-					alt=""
-				/> */}
 			</footer>
 		</div>
 	);
