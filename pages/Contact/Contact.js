@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
+
 import styles from '../../styles/Contact.module.css';
 import Layout from '../../components/layout';
 
 import sleepyCat from '/public/images/sleepyCat.png';
-
 import mapIcon from '/public/images/mapIcon.png';
 
 export default function Contact() {
@@ -18,7 +18,7 @@ export default function Contact() {
 				style={{
 					display: 'flex',
 					flexDirection: 'column',
-					alignItems: 'center',
+					marginLeft: '300px',
 				}}
 			>
 				<div
@@ -26,7 +26,7 @@ export default function Contact() {
 						display: 'flex',
 						flexDirection: 'column',
 						borderRadius: '12px',
-						filter: 'drop-shadow(12px 0px 4px rgb(0,0,0,0.25))',
+						boxShadow: '0px 4px 12px 0px #00000040',
 						marginTop: '-100px',
 						paddingTop: '10px',
 						paddingLeft: '90px',
@@ -59,7 +59,7 @@ export default function Contact() {
 									Name
 									<br />
 									<input
-										className="input-style"
+										className={styles.formInput}
 										type="text"
 										name="name"
 										placeholder=" Pearl"
@@ -73,7 +73,7 @@ export default function Contact() {
 										type="email"
 										name="email"
 										placeholder=" pearl_the_cat@meow.com"
-										className="input-style"
+										className={styles.formInput}
 									/>
 								</label>
 								<br />
@@ -84,7 +84,7 @@ export default function Contact() {
 										type="phone"
 										name="phone"
 										placeholder=" +1 (000)000-0000"
-										className="input-style"
+										className={styles.formInput}
 									/>
 								</label>
 								<br />
@@ -103,7 +103,7 @@ export default function Contact() {
 										type="text"
 										name="text"
 										placeholder=" Your message"
-										className="input-style"
+										className={styles.formTextArea}
 									/>
 								</label>
 								<br />
@@ -124,6 +124,7 @@ export default function Contact() {
 						</div>
 					</form>
 				</div>
+
 				<div style={{ display: 'flex', flexDirection: 'row' }}>
 					<div
 						style={{

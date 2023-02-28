@@ -17,7 +17,7 @@ export default function About() {
 				style={{
 					display: 'flex',
 					flexDirection: 'column',
-					alignItems: 'center',
+					marginLeft: '392px',
 				}}
 			>
 				<h2

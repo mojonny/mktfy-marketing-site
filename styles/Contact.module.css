@@ -2,3 +2,23 @@
 	height: 750px;
 	width: 1316px;
 }
+
+.formInput {
+	height: 51px;
+	width: 547px;
+	left: 0px;
+	top: 28px;
+	border-radius: 4px;
+	padding: 16px 10px 16px 10px;
+	border: 1px solid #e2e2e2;
+}
+
+.formTextArea {
+	height: 181px;
+	width: 547px;
+	left: 0px;
+	top: 28px;
+	border-radius: 4px;
+	padding: 16px 10px 16px 10px;
+	border: 1px solid #e2e2e2;
+}

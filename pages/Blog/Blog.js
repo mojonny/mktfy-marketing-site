@@ -41,7 +41,16 @@ export default function Blog() {
 							serves.
 						</p>
 						<Link href="/BlogItem/BlogItem">
-							<button>
+							<button
+								style={{
+									background: 'none',
+									border: 'none',
+									display: 'flex',
+									alignItems: 'center',
+									justifyContent: 'space-between',
+									width: '143px',
+								}}
+							>
 								Continue Reading
 								<Image src={playCircle} height={16} width={16} alt="play" />
 							</button>
@@ -60,7 +69,16 @@ export default function Blog() {
 							a picture perfect moment happen with us!
 						</p>
 						<Link href="/BlogItem/BlogItem">
-							<button>
+							<button
+								style={{
+									background: 'none',
+									border: 'none',
+									display: 'flex',
+									alignItems: 'center',
+									justifyContent: 'space-between',
+									width: '143px',
+								}}
+							>
 								Continue Reading
 								<Image src={playCircle} height={16} width={16} alt="play" />
 							</button>
@@ -77,7 +95,16 @@ export default function Blog() {
 							a unique and moody atmosphere to any room.
 						</p>
 						<Link href="/BlogItem/BlogItem">
-							<button>
+							<button
+								style={{
+									background: 'none',
+									border: 'none',
+									display: 'flex',
+									alignItems: 'center',
+									justifyContent: 'space-between',
+									width: '143px',
+								}}
+							>
 								Continue Reading
 								<Image src={playCircle} height={16} width={16} alt="play" />
 							</button>
