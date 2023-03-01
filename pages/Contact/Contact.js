@@ -43,16 +43,20 @@ export default function Contact() {
 						donate let us know. There are no limits to what we can do together.
 					</p>
 
-					<form className="form-container">
+					<div className="form-container">
 						<div
-							className={styles.container}
-							style={{ display: 'flex', flexDirection: 'row' }}
+							style={{
+								display: 'flex',
+								flexDirection: 'row',
+								gap: '42px',
+							}}
 						>
 							<div
 								style={{
 									display: 'flex',
 									flexDirection: 'column',
-									width: '366px',
+									width: '550px',
+									gap: '5px',
 								}}
 							>
 								<label className="first">
@@ -122,10 +126,16 @@ export default function Contact() {
 								</button>
 							</div>
 						</div>
-					</form>
+					</div>
 				</div>
 
-				<div style={{ display: 'flex', flexDirection: 'row' }}>
+				<div
+					style={{
+						display: 'flex',
+						flexDirection: 'row',
+						alignItems: 'center',
+					}}
+				>
 					<div
 						style={{
 							display: 'flex',

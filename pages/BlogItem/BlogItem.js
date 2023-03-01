@@ -24,7 +24,7 @@ export default function BlogItem() {
 					}}
 				>
 					<Link href="/Blog/Blog">
-						<button>
+						<button style={{ background: 'none', border: 'none' }}>
 							<Image src={back} height={16} width={16} alt="play" />
 						</button>
 					</Link>
@@ -54,6 +54,12 @@ export default function BlogItem() {
 						<button
 							style={{
 								float: 'right',
+								background: 'none',
+								border: 'none',
+								display: 'flex',
+								alignItems: 'center',
+								justifyContent: 'space-between',
+								width: '143px',
 							}}
 						>
 							Next blog
