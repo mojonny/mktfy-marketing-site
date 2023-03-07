@@ -23,15 +23,15 @@ export default function Layout({ children }) {
 						<a href="/">
 							<h1 className={utilStyles.headingMd}>Home</h1>{' '}
 						</a>
-						<a href="/About/About">
+						<a href="/About">
 							<h1 className={utilStyles.headingMd}> About </h1>
 						</a>
 
-						<a href="/Blog/Blog">
+						<a href="/Blog">
 							<h1 className={utilStyles.headingMd}> News </h1>
 						</a>
 
-						<a href="/Contact/Contact">
+						<a href="/Contact">
 							<h1 className={utilStyles.headingMd}> Contact </h1>
 						</a>
 					</nav>
@@ -83,13 +83,13 @@ export default function Layout({ children }) {
 					<div>
 						<div className={styles.linkList}>
 							<h3>Jump to:</h3>
-							<a href="/About/About">
+							<a href="/About">
 								<p className={utilStyles.headingMd}> About us </p>
 							</a>
 
 							<p className={utilStyles.headingMd}> MKTFY business </p>
 							<p className={utilStyles.headingMd}> Donate with MKTFY </p>
-							<a href="/Blog/Blog">
+							<a href="/Blog">
 								<p className={utilStyles.headingMd}> Blog </p>
 							</a>
 						</div>
@@ -98,7 +98,7 @@ export default function Layout({ children }) {
 						<div className={styles.linkList}>
 							<h3>Contact</h3>
 
-							<a href="/Contact/Contact">
+							<a href="/Contact">
 								<p
 									className={utilStyles.headingMd}
 									style={{ color: '#FFBA00' }}
