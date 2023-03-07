@@ -38,7 +38,7 @@ export default function Home() {
 
 						backgroundImage: `url(${andrea.src})`,
 						backgroundRepeat: 'no-repeat',
-						width: '1920px',
+						maxWidth: '1920px',
 						height: '700px',
 					}}
 				>
@@ -150,7 +150,7 @@ export default function Home() {
 
 						backgroundImage: `url(${sleepingCat.src})`,
 						backgroundRepeat: 'no-repeat',
-						width: '1920px',
+						maxWidth: '1920px',
 						height: '480px',
 					}}
 				>
