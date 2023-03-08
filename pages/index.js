@@ -27,7 +27,7 @@ export default function Home() {
 			<Head>
 				<title>{siteTitle}</title>
 			</Head>
-			<section className={utilStyles.headingMd}>
+			<section className={utilStyles.headingMd} style={{ width: '99vw' }}>
 				<div
 					style={{
 						display: 'flex',
@@ -37,8 +37,8 @@ export default function Home() {
 						paddingLeft: '400px',
 
 						backgroundImage: `url(${andrea.src})`,
-						backgroundRepeat: 'no-repeat',
-						maxWidth: '1920px',
+						objectFit: 'cover',
+						width: '99vw',
 						height: '700px',
 					}}
 				>
@@ -87,8 +87,8 @@ export default function Home() {
 					style={{
 						display: 'flex',
 						flexDirection: 'row',
-						justifyContent: 'left',
-						marginLeft: '400px',
+						justifyContent: 'space-around',
+						margin: '0 auto',
 						alignItems: 'center',
 						gap: '160px',
 						height: '440px',
@@ -146,11 +146,12 @@ export default function Home() {
 						flexDirection: 'column',
 
 						paddingTop: '125px',
-						paddingLeft: '400px',
+						paddingLeft: '200px',
 
 						backgroundImage: `url(${sleepingCat.src})`,
+						objectFit: 'contain',
 						backgroundRepeat: 'no-repeat',
-						maxWidth: '1920px',
+						maxWidth: '99vw',
 						height: '480px',
 					}}
 				>
@@ -159,7 +160,6 @@ export default function Home() {
 							display: 'flex',
 							alignItems: 'center',
 							justifyContent: 'space-between',
-							width: '1000px',
 						}}
 					>
 						<div>
@@ -198,6 +198,7 @@ export default function Home() {
 						backgroundImage: `url(${cloudSide.src})`,
 						backgroundRepeat: 'no-repeat',
 						height: '848px',
+						width: '99vw',
 					}}
 				>
 					<Image
@@ -421,7 +422,7 @@ export default function Home() {
 					style={{
 						backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(${catLick.src})`,
 						backgroundRepeat: 'no-repeat',
-						width: '1920px',
+						width: '99vw',
 					}}
 				>
 					<Image

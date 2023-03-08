@@ -21,7 +21,7 @@ export default function Layout({ children }) {
 					<Image priority src={logo} height={45} width={200} alt="" />
 					<nav style={{ display: 'flex', gap: '50px', color: '#ffffff' }}>
 						<a href="/">
-							<h1 className={utilStyles.headingMd}>Home</h1>{' '}
+							<h1 className={utilStyles.headingMd}> Home </h1>{' '}
 						</a>
 						<a href="/About">
 							<h1 className={utilStyles.headingMd}> About </h1>

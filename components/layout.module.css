@@ -5,7 +5,7 @@
 .header {
 	padding-left: 390px;
 	background-color: #6318af;
-	width: 1920px;
+	width: 99vw;
 	height: 225px;
 	display: flex;
 	flex-direction: column;
@@ -18,7 +18,7 @@
 
 .footer {
 	height: 650px;
-
+	width: 99vw;
 	background-image: url('/public/images/Footer.jpg');
 	padding-left: 390px;
 	position: relative;
